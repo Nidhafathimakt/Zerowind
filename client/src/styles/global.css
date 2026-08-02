@@ -1,0 +1,13 @@
+@import url('./variable.css');
+.homeBgColor {
+    background-color: var(--primary-color);
+}
+.textSecondaryColor {
+    color: var(--secondary-color);
+}
+.buttonBackground {
+    background-color: var(--secondary-color);
+}
+.mainFont {
+    font-family: var(--font-family);
+}
