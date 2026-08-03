@@ -4,20 +4,19 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
-
 function Contact() {
   return (
-    <div className="min-h-screen homeBgColor pt-20 pb-15 ">
-      <h1 className="ps-30 textSecondaryColor tracking-wide text-xl">
+    <div className="min-h-screen homeBgColor pt-20 pb-15 overflow-x-hidden">
+      <h1 className="px-5 sm:px-10 xl:ps-30 textSecondaryColor tracking-wide text-lg sm:text-xl">
         Have a question?{" "}
       </h1>
-      <h1 className="ps-30 textSecondaryColor tracking-wide text-xl">
+      <h1 className="px-5 sm:px-10 xl:ps-30 textSecondaryColor tracking-wide text-lg sm:text-xl">
         Do you want to talk to us?
       </h1>
       <Form />
-      <div className="px-30 flex justify-between items-start ">
+      <div className="px-5 sm:px-10 xl:px-30 flex flex-col lg:flex-row justify-between items-center lg:items-start gap-10 lg:gap-0">
         {/* Left Section */}
-        <div className="flex gap-28">
+        <div className="flex flex-col sm:flex-row gap-10 sm:gap-28 w-full lg:w-auto text-center sm:text-left">
           {/* Address */}
           <div>
             <h3 className="textSecondaryColor text-xs font-medium mb-6">
@@ -44,22 +43,22 @@ function Contact() {
         </div>
 
         {/* Right Section - Social Icons */}
-       <div className="flex items-center gap-8 pe-20">
-  <FaInstagram 
-    size={18}
-    className="text-[#E8FF00] hover:text-white cursor-pointer transition"
-  />
+        <div className="flex items-center gap-8 pe-0 xl:pe-20 pb-6 lg:pb-0">
+          <FaInstagram
+            size={18}
+            className="text-[#E8FF00] hover:text-white cursor-pointer transition min-w-[44px] min-h-[44px]"
+          />
 
-  <FaFacebookF 
-    size={18}
-    className="text-[#E8FF00] hover:text-white cursor-pointer transition"
-  />
+          <FaFacebookF
+            size={18}
+            className="text-[#E8FF00] hover:text-white cursor-pointer transition min-w-[44px] min-h-[44px]"
+          />
 
-  <FaYoutube 
-    size={18}
-    className="text-[#E8FF00] hover:text-white cursor-pointer transition"
-  />
-</div>
+          <FaYoutube
+            size={18}
+            className="text-[#E8FF00] hover:text-white cursor-pointer transition min-w-[44px] min-h-[44px]"
+          />
+        </div>
       </div>
     </div>
   );

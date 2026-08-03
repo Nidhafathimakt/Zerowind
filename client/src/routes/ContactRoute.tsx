@@ -5,7 +5,9 @@ function ContactRoute() {
   return (
     <>
     <Navbar/>
-    <Contact/>
+    <main className="overflow-x-hidden">
+      <Contact/>
+    </main>
     </>
   )
 }

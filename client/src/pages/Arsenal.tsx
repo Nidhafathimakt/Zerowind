@@ -5,12 +5,12 @@ import ProductFeature from "../components/common/ProductFeature";
 
 function Arsenal() {
   return (
-    <div className="min-hscreen homeBgColor pt-17">
-      <div className="relative mt-20 flex justify-center items-center ">
+    <div className="min-hscreen homeBgColor pt-17 overflow-x-hidden">
+      <div className="relative mt-12 sm:mt-20 flex justify-center items-center px-4">
         <h1
           className="
     mainFont
-    text-[12vw]
+    text-[14vw] sm:text-[12vw]
     font-black
     uppercase
     text-transparent
@@ -23,21 +23,21 @@ function Arsenal() {
           Arsenal
         </h1>
 
-        <div className="absolute inset-0 flex items-center justify-center py-20">
+        <div className="absolute inset-0 flex items-center justify-center py-10 sm:py-20">
           <img
             src="src/assets/Images/imgi_20_web10-05-006-005-rain-jacket-long-sleeve-selkie-unisex-ultrablue-12%40900xauto_r.png.webp"
             alt=""
-            className="w-60 h-80"
+            className="w-40 sm:w-60 h-auto max-w-[55vw] object-contain"
           />
         </div>
       </div>
 
-      <div className="min-h-screen mt-25 flex justify-center items-center pb-15 ">
-        <div className="bg-black w-[780px] rounded-lg  pt-6 pb-15 space-y-3 ">
-          <h1 className="text-white font-black tracking-wide text-3xl text-center">
+      <div className="min-h-screen mt-12 sm:mt-25 flex justify-center items-center pb-10 sm:pb-15 px-4 sm:px-5">
+        <div className="bg-black w-full max-w-[780px] rounded-lg pt-6 pb-10 sm:pb-15 space-y-3">
+          <h1 className="text-white font-black tracking-wide text-2xl sm:text-3xl text-center">
             Arsenal
           </h1>
-          <p className="text-gray-400 text-[13px]  tracking-wider text-center leading-8">
+          <p className="text-gray-400 text-[13px] tracking-wider text-center leading-7 sm:leading-8 px-2">
             Custom product exclusively for customer. <br />
             Light shield fabric for mid-season. <br />
             Very breathable and with absolute wind protection. <br />

@@ -1,6 +1,6 @@
 function PrivacyPolicy() {
   return (
-    <div className="min-h-screen homeBgColor pt-25 ps-10 py-5 pb-25">
+    <div className="min-h-screen homeBgColor pt-20 sm:pt-25 px-4 sm:px-10 py-5 pb-15 sm:pb-25 overflow-x-hidden max-w-full">
       <h1 className="textSecondaryColor font-semibold text-2xl ">Privacy Policy</h1> <br />
       <div className="space-y-3 text-sm tracking-wide">
       <p className="textSecondaryColor uppercase  font-semibold  ">

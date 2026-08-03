@@ -1,96 +1,93 @@
 import { Link } from "react-router-dom";
+
 function Technologies() {
   return (
-    <div className="flex flex-col gap-8 mt-8">
-      <div className="flex justify-between gap-8 ">
-        <Link to="/fit">
-        <div className="relative " >
-          <img
-            src="src/assets/Images/imgi_7_shutterstock-1022568799%401320x1020_r.jpeg.webp"
-            alt=""
-            className="w-[500px] h-[350px] object-cover rounded-lg"
-          />
-          {/* Fit */}
-          <div className="absolute inset-0 flex items-center justify-center">
+    <div className="flex flex-col gap-6 sm:gap-8 mt-6 sm:mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:flex xl:justify-between gap-6 md:gap-8">
+        <Link to="/fit" className="block w-full xl:w-auto">
+          <div className="relative w-full">
             <img
-              src="src/assets/Images/download (9).svg"
+              src="src/assets/Images/imgi_7_shutterstock-1022568799%401320x1020_r.jpeg.webp"
               alt=""
-              className="w-20 h-20 object-contain"
+              className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <img
+                src="src/assets/Images/download (9).svg"
+                alt=""
+                className="w-16 sm:w-20 h-auto object-contain"
+              />
+            </div>
           </div>
-        </div>
         </Link>
-        <Link to="/motion">
-        <div className="relative">
-          <img
-            src="src/assets/Images/imgi_12_shutterstock-560580814%401320x1020_r.jpeg.webp"
-            alt=""
-            className="w-[500px] h-[350px] object-cover rounded-lg"
-          />
-          {/* Motion */}
-          <div className="absolute inset-0 flex items-center justify-center">
+        <Link to="/motion" className="block w-full xl:w-auto">
+          <div className="relative w-full">
             <img
-              src="src/assets/Images/download (2).svg"
+              src="src/assets/Images/imgi_12_shutterstock-560580814%401320x1020_r.jpeg.webp"
               alt=""
-              className="w-50 h-50 object-contain"
+              className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <img
+                src="src/assets/Images/download (2).svg"
+                alt=""
+                className="w-32 sm:w-40 xl:w-50 h-auto object-contain"
+              />
+            </div>
           </div>
-        </div>
         </Link>
       </div>
 
-      <div className="flex justify-between gap-8">
-        <Link to="/power">
-        <div className="relative">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:flex xl:justify-between gap-6 md:gap-8">
+        <Link to="/power" className="block w-full xl:w-auto">
+          <div className="relative w-full">
+            <img
+              src="src/assets/Images/imgi_13_istock-155467403%401320x1020_r.jpeg.webp"
+              alt=""
+              className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <img
+                src="src/assets/Images/download (3).svg"
+                alt=""
+                className="w-32 sm:w-40 xl:w-50 h-auto object-contain"
+              />
+            </div>
+          </div>
+        </Link>
+        <Link to="/brave" className="block w-full xl:w-auto">
+          <div className="relative w-full">
+            <img
+              src="src/assets/Images/imgi_15_shutterstock-2411698327%401320x1020_r.jpeg.webp"
+              alt=""
+              className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <img
+                src="src/assets/Images/download (5).svg"
+                alt=""
+                className="w-32 sm:w-40 xl:w-50 h-auto object-contain"
+              />
+            </div>
+          </div>
+        </Link>
+      </div>
+
+      <Link to="/vapora" className="block w-full">
+        <div className="relative w-full">
           <img
-            src="src/assets/Images/imgi_13_istock-155467403%401320x1020_r.jpeg.webp"
+            src="src/assets/Images/imgi_18_vaporapreview%401320x1020_r.jpeg.webp"
             alt=""
-            className="w-[500px] h-[350px] object-cover rounded-lg"
+            className="w-full h-[200px] sm:h-[250px] xl:h-[300px] object-cover rounded-lg"
           />
-          {/* Power */}
           <div className="absolute inset-0 flex items-center justify-center">
             <img
-              src="src/assets/Images/download (3).svg"
+              src="src/assets/Images/download (6).svg"
               alt=""
-              className="w-50 h-50 object-contain"
+              className="w-32 sm:w-40 xl:w-50 h-auto object-contain"
             />
           </div>
         </div>
-        </Link>
-        <Link to="/brave">
-        <div className="relative">
-          <img
-            src="src/assets/Images/imgi_15_shutterstock-2411698327%401320x1020_r.jpeg.webp"
-            alt=""
-            className="w-[500px] h-[350px] object-cover rounded-lg"
-          />
-          {/* Brave */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <img
-              src="src/assets/Images/download (5).svg"
-              alt=""
-              className="w-50 h-50 object-contain"
-            />
-          </div>
-        </div>
-        </Link>
-      </div>
-      <Link to="/vapora">
-      <div className="relative">
-        <img
-          src="src/assets/Images/imgi_18_vaporapreview%401320x1020_r.jpeg.webp"
-          alt=""
-          className="w-full h-[300px] object-cover rounded-lg"
-        />
-        {/* Vapora */}
-        <div className="absolute inset-0 flex items-center justify-center">
-          <img
-            src="src/assets/Images/download (6).svg"
-            alt=""
-            className="w-50 h-50 object-contain"
-          />
-        </div>
-      </div>
       </Link>
     </div>
   );

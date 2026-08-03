@@ -1,8 +1,9 @@
 import ExpertAdvice from "../components/common/ExpertAdvice";
 import { Link } from "react-router-dom";
+
 function Fit() {
   return (
-    <section className="w-full m-0 p-0 mainFont">
+    <section className="w-full m-0 p-0 mainFont overflow-x-hidden">
       <div className="relative w-full">
         <video
           src="/0a804172.mp4"
@@ -10,33 +11,33 @@ function Fit() {
           loop
           muted
           playsInline
-          className="w-full h-[425px] object-cover"
+          className="w-full h-[250px] sm:h-[350px] xl:h-[425px] object-cover"
         />
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <p className="uppercase text-white text-sm tracking-[0.3em]">
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
+          <p className="uppercase text-white text-xs sm:text-sm tracking-[0.3em]">
             Technology
           </p>
 
           <img
             src="src/assets/Images/download (9).svg"
             alt="Fit"
-            className="w-52 h-52 object-contain"
+            className="w-32 sm:w-44 xl:w-52 h-auto object-contain"
           />
         </div>
       </div>
 
-      <div className="min-h-screen homeBgColor  pt-24 px-30  ">
+      <div className="min-h-screen homeBgColor pt-16 sm:pt-24 px-5 sm:px-10 xl:px-30">
         <div>
-          <p className="text-4xl text-white font-extrabold">
-            FIT is ZeroWind's line of 2-layer fabrics, <br /> perfect for
-            creating breathable, fully <br /> windproof and waterproof outdoor{" "}
-            <br /> sportswear garments suitable for <br /> mid-seasons.
+          <p className="text-2xl sm:text-3xl xl:text-4xl text-white font-extrabold text-center xl:text-left leading-snug">
+            FIT is ZeroWind's line of 2-layer fabrics, <br className="hidden sm:block" /> perfect for
+            creating breathable, fully <br className="hidden sm:block" /> windproof and waterproof outdoor{" "}
+            <br className="hidden sm:block" /> sportswear garments suitable for <br className="hidden sm:block" /> mid-seasons.
           </p>
         </div>
 
-        <div className="mt-20 flex justify-between gap-7 py-15">
-          <div className="w-[318px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center">
+        <div className="mt-12 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-7 py-8 sm:py-15">
+          <div className="w-full xl:w-[318px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
             <img
               src="src/assets/Images/imgi_8_icon-334.svg"
               alt=""
@@ -47,7 +48,7 @@ function Fit() {
             </p>
           </div>
 
-          <div className="w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center">
+          <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
             <img
               src="src/assets/Images/imgi_9_Livello-1-4.svg"
               alt=""
@@ -58,7 +59,7 @@ function Fit() {
             </p>
           </div>
 
-          <div className="w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center">
+          <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
             <img
               src="src/assets/Images/imgi_10_Group3-2_1.svg"
               alt=""
@@ -69,7 +70,7 @@ function Fit() {
             </p>
           </div>
 
-          <div className="w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center">
+          <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
             <img
               src="src/assets/Images/imgi_11_Livello-1-6_1.svg"
               alt=""
@@ -82,64 +83,63 @@ function Fit() {
         </div>
 
         <div>
-          <p className="text-white text-xl ">
+          <p className="text-white text-base sm:text-lg xl:text-xl text-center xl:text-left">
             The construction of these fabrics and their totally PFAS-free
-            hydrophilic <br /> membrane create garments that combine high
-            performance with extraordinary <br /> comfort that enhances the
-            technicality of the material. <br />
+            hydrophilic <br className="hidden xl:block" /> membrane create garments that combine high
+            performance with extraordinary <br className="hidden xl:block" /> comfort that enhances the
+            technicality of the material. <br className="hidden xl:block" />
             As confirmed by laboratory tests, this technology promotes the
-            passage of <br /> moisture to the outside through osmosis, and
-            breathability increases dynamically <br /> as the exertion
+            passage of <br className="hidden xl:block" /> moisture to the outside through osmosis, and
+            breathability increases dynamically <br className="hidden xl:block" /> as the exertion
             intensifies, keeping the inside of the garment dry.
           </p>
         </div>
 
-        <div className="flex items-center gap-20 text-center ">
+        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-20 text-center mt-12 sm:mt-20">
           <video
             src="/cf5ecee7.mp4"
             autoPlay
             loop
             muted
             playsInline
-            className="w-[500px] h-[250px] object-cover rounded-lg shadow-2xs mt-20"
+            className="w-full max-w-[500px] xl:w-[500px] h-[200px] sm:h-[250px] object-cover rounded-lg shadow-2xs"
           />
-          <div className="flex flex-col gap-2 textSecondaryColor mt-15">
+          <div className="flex flex-col gap-2 textSecondaryColor">
             <p className="uppercase text-[9px] font-normal">Grams</p>
             <p className="text-3xl font-extrabold">50 a 150</p>
             <p className="text-[9px] font-normal">gr/m2</p>
           </div>
         </div>
 
-        <div className=" flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center">
           <img
             src="src/assets/Images/imgi_20_web10-05-006-005-rain-jacket-long-sleeve-selkie-unisex-ultrablue-12%40900xauto_r.png.webp"
             alt=""
-            className="w-55 h-70 mt-15 "
+            className="w-40 sm:w-55 h-auto mt-10 sm:mt-15 object-contain"
           />
           <img
             src="src/assets/Images/imgi_25_untitled-759%40900xauto_r.png.webp"
             alt=""
-            className="w-55 h-70 mt-25"
+            className="w-40 sm:w-55 h-auto mt-16 sm:mt-25 object-contain"
           />
           <img
             src="src/assets/Images/imgi_23_cortavientos-pro-team-tibet%40900xauto_r.png.webp"
             alt=""
-            className="w-53 h-80 mt-25"
+            className="w-40 sm:w-53 h-auto mt-16 sm:mt-25 object-contain"
           />
         </div>
         <ExpertAdvice />
       </div>
-    <Link to="/motion">
-      <div className="w-full flex  homeBgColor px-5 py-20">
-        
+      <Link to="/motion">
+        <div className="w-full flex homeBgColor px-4 sm:px-5 py-12 sm:py-20">
           <div className="relative w-full">
             <img
               src="src/assets/Images/Motion.webp"
               alt=""
-              className="w-full h-[280px] object-cover rounded-lg"
+              className="w-full h-[200px] sm:h-[280px] object-cover rounded-lg"
             />
 
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-white uppercase">
+            <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-white uppercase px-4">
               <p className="text-[9px] font-semibold tracking-[0.1em]">
                 Discover the
               </p>
@@ -147,7 +147,7 @@ function Fit() {
               <img
                 src="src/assets/Images/download (2).svg"
                 alt=""
-                className="w-70  object-contain"
+                className="w-40 sm:w-70 object-contain max-w-[80%]"
               />
 
               <p className="text-[9px] font-semibold tracking-[0.1em]">
@@ -155,8 +155,7 @@ function Fit() {
               </p>
             </div>
           </div>
-        
-      </div>
+        </div>
       </Link>
     </section>
   );
