@@ -85,7 +85,7 @@ function Home() {
       <section className="relative overflow-hidden bg-[#232323]">
         {/* Background SVG */}
         <img
-          src="src/assets/Images/download (1).svg"
+          src="/download (1).svg"
           alt=""
           className="absolute inset-0 w-full h-full object-cover opacity-[0.03]"
         />
@@ -153,12 +153,12 @@ function Home() {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <img
-                  src="src/assets/Images/download (1).svg"
+                  src="/download (1).svg"
                   alt=""
                   className="w-32 sm:w-40 xl:w-50 h-auto max-w-[80%] object-contain"
                 />
                 <img
-                  src="src/assets/Images/download (4).svg"
+                  src="/download (4).svg"
                   alt=""
                   className="w-14 sm:w-16 xl:w-20 h-auto object-contain"
                 />
@@ -177,12 +177,12 @@ function Home() {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <img
-                  src="src/assets/Images/download.svg"
+                  src="/download.svg"
                   alt=""
                   className="w-32 sm:w-40 xl:w-50 h-auto max-w-[80%] object-contain"
                 />
                 <img
-                  src="src/assets/Images/download (10).svg"
+                  src="/download (10).svg"
                   alt=""
                   className="w-14 sm:w-16 xl:w-20 h-auto object-contain"
                 />
@@ -213,7 +213,7 @@ function Home() {
           <div className="absolute inset-0 flex items-center justify-center py-6 sm:py-10">
             <Link to="/arsenal">
               <img
-                src="src/assets/Images/imgi_20_web10-05-006-005-rain-jacket-long-sleeve-selkie-unisex-ultrablue-12%40900xauto_r.png.webp"
+                src="/imgi_20_web10-05-006-005-rain-jacket-long-sleeve-selkie-unisex-ultrablue-12%40900xauto_r.png.webp"
                 alt=""
                 className="w-48 sm:w-64 xl:w-80 h-auto max-w-[70vw] object-contain"
               />
@@ -223,48 +223,48 @@ function Home() {
 
         <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6 xl:gap-10 py-6 sm:py-10 mt-6 sm:mt-10 px-4">
           <img
-            src="src/assets/Images/imgi_20_web10-05-006-005-rain-jacket-long-sleeve-selkie-unisex-ultrablue-12%40900xauto_r.png.webp"
+            src="/imgi_20_web10-05-006-005-rain-jacket-long-sleeve-selkie-unisex-ultrablue-12%40900xauto_r.png.webp"
             alt=""
             className="w-12 sm:w-15 h-16 sm:h-20 object-contain"
           />
           <Link to="/bergamo">
             <img
-              src="src/assets/Images/imgi_25_untitled-759%40900xauto_r.png.webp"
+              src="/imgi_25_untitled-759%40900xauto_r.png.webp"
               alt=""
               className="w-12 sm:w-15 h-16 sm:h-20 object-contain"
             />
           </Link>
           <Link to="/bradsoftshell">
             <img
-              src="src/assets/Images/imgi_22_ppellejkthy-23-aranci-web%40900xauto_r.png.webp"
+              src="/imgi_22_ppellejkthy-23-aranci-web%40900xauto_r.png.webp"
               alt=""
               className="w-12 sm:w-15 h-16 sm:h-20 object-contain"
             />
           </Link>
           <Link to="/grandprix">
             <img
-              src="src/assets/Images/imgi_23_cortavientos-pro-team-tibet%40900xauto_r.png.webp"
+              src="/imgi_23_cortavientos-pro-team-tibet%40900xauto_r.png.webp"
               alt=""
               className="w-12 sm:w-15 h-16 sm:h-22 object-contain"
             />
           </Link>
           <Link to="/tempest">
             <img
-              src="src/assets/Images/imgi_26_untitled-760%40900xauto_r.png.webp"
+              src="/imgi_26_untitled-760%40900xauto_r.png.webp"
               alt=""
               className="w-12 sm:w-15 h-16 sm:h-20 object-contain"
             />
           </Link>
           <Link to="/elaprint">
             <img
-              src="src/assets/Images/imgi_25_untitled-759%40900xauto_r.png.webp"
+              src="/imgi_25_untitled-759%40900xauto_r.png.webp"
               alt=""
               className="w-12 sm:w-15 h-16 sm:h-20 object-contain"
             />
           </Link>
           <Link to="/skin">
             <img
-              src="src/assets/Images/imgi_26_untitled-760%40900xauto_r.png.webp"
+              src="/imgi_26_untitled-760%40900xauto_r.png.webp"
               alt=""
               className="w-12 sm:w-15 h-16 sm:h-20 object-contain"
             />

@@ -8,7 +8,7 @@ function MotionZwr() {
         </p>
 
         <img
-          src="src/assets/Images/download (2).svg"
+          src="/download (2).svg"
           alt="Motion"
           className="w-36 sm:w-50 h-auto object-contain"
         />
@@ -20,7 +20,7 @@ function MotionZwr() {
         </p>
 
         <img
-          src="src/assets/Images/download (1).svg"
+          src="/download (1).svg"
           alt="ZWR"
           className="w-30 object-contain"
         />

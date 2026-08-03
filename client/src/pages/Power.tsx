@@ -20,7 +20,7 @@ function Power() {
           </p>
 
           <img
-            src="src/assets/Images/download (3).svg"
+            src="/download (3).svg"
             alt="Power"
             className="w-40 sm:w-80 xl:w-120 h-auto object-contain max-w-[90%]"
           />
@@ -39,19 +39,19 @@ function Power() {
 
         <div className="mt-12 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-7 py-8 sm:py-15">
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_9_Livello-1-4.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_9_Livello-1-4.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">Total wind protection</p>
           </div>
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_10_Group3-2_1.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_10_Group3-2_1.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">High breathability</p>
           </div>
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_11_Livello-1-6_1.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_11_Livello-1-6_1.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">Thermoregulation</p>
           </div>
           <div className="w-full xl:w-[318px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_14_icon-55.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_14_icon-55.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">Excellent fit</p>
           </div>
         </div>
@@ -82,7 +82,7 @@ function Power() {
 
         <div className="flex items-center justify-center">
           <img
-            src="src/assets/Images/imgi_26_untitled-760%40900xauto_r.png.webp"
+            src="/imgi_26_untitled-760%40900xauto_r.png.webp"
             alt=""
             className="w-40 sm:w-55 h-auto mt-10 sm:mt-15 object-contain"
           />
@@ -93,13 +93,13 @@ function Power() {
         <div className="w-full flex homeBgColor px-4 sm:px-5 py-12 sm:py-20">
           <div className="relative w-full">
             <img
-              src="src/assets/Images/imgi_15_shutterstock-2411698327%401320x1020_r.jpeg.webp"
+              src="/imgi_15_shutterstock-2411698327%401320x1020_r.jpeg.webp"
               alt=""
               className="w-full h-[200px] sm:h-[280px] object-cover rounded-lg"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-white uppercase px-4">
               <p className="text-[9px] font-semibold tracking-[0.1em]">Discover the</p>
-              <img src="src/assets/Images/download (5).svg" alt="" className="w-36 sm:w-50 object-contain max-w-[80%]" />
+              <img src="/download (5).svg" alt="" className="w-36 sm:w-50 object-contain max-w-[80%]" />
               <p className="text-[9px] font-semibold tracking-[0.1em]">Technology</p>
             </div>
           </div>

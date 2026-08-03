@@ -20,7 +20,7 @@ function Vapora() {
           </p>
 
           <img
-            src="src/assets/Images/download (6).svg"
+            src="/download (6).svg"
             alt="Vapora"
             className="w-40 sm:w-80 xl:w-120 h-auto object-contain max-w-[90%]"
           />
@@ -41,22 +41,22 @@ function Vapora() {
 
         <div className="mt-12 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-7 py-8 sm:py-15">
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_10_Group3-2_1.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_10_Group3-2_1.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">High breathability</p>
           </div>
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_11_Livello-1-6_1.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_11_Livello-1-6_1.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">Thermoregulation</p>
           </div>
           <div className="w-full xl:w-[318px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_16_icon-3.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_16_icon-3.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3 text-center">
               Minimum bulk and maximum <br />
               lightness
             </p>
           </div>
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_19_icon-456.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_19_icon-456.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">Insulation</p>
           </div>
         </div>
@@ -83,7 +83,7 @@ function Vapora() {
       <div className="homeBgColor">
         <div className="flex flex-col md:flex-row px-5 sm:px-10 xl:px-25 items-center gap-8 md:gap-20 text-center pb-10">
           <img
-            src="src/assets/Images/vapora-breathable-soul@690x340_r.jpeg.webp"
+            src="/vapora-breathable-soul@690x340_r.jpeg.webp"
             alt=""
             className="w-full max-w-[500px] xl:w-[500px] h-[200px] sm:h-[280px] object-cover rounded-lg shadow-2xs mt-12 sm:mt-20"
           />
@@ -100,14 +100,14 @@ function Vapora() {
           <div className="w-full flex homeBgColor px-4 sm:px-5 mt-10 pb-12 sm:pb-20">
             <div className="relative w-full">
               <img
-                src="src/assets/Images/imgi_7_shutterstock-1022568799%401320x1020_r.jpeg.webp"
+                src="/imgi_7_shutterstock-1022568799%401320x1020_r.jpeg.webp"
                 alt=""
                 className="w-full h-[200px] sm:h-[280px] object-cover rounded-lg"
               />
 
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-white uppercase px-4">
                 <p className="text-[9px] font-semibold tracking-[0.1em]">Discover the</p>
-                <img src="src/assets/Images/download (9).svg" alt="" className="w-20 sm:w-25 object-contain" />
+                <img src="/download (9).svg" alt="" className="w-20 sm:w-25 object-contain" />
                 <p className="text-[9px] font-semibold tracking-[0.1em]">Technology</p>
               </div>
             </div>

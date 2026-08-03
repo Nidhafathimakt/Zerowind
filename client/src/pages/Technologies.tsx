@@ -7,13 +7,13 @@ function Technologies() {
         <Link to="/fit" className="block w-full xl:w-auto">
           <div className="relative w-full">
             <img
-              src="src/assets/Images/imgi_7_shutterstock-1022568799%401320x1020_r.jpeg.webp"
+              src="/imgi_7_shutterstock-1022568799%401320x1020_r.jpeg.webp"
               alt=""
               className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <img
-                src="src/assets/Images/download (9).svg"
+                src="/download (9).svg"
                 alt=""
                 className="w-16 sm:w-20 h-auto object-contain"
               />
@@ -23,13 +23,13 @@ function Technologies() {
         <Link to="/motion" className="block w-full xl:w-auto">
           <div className="relative w-full">
             <img
-              src="src/assets/Images/imgi_12_shutterstock-560580814%401320x1020_r.jpeg.webp"
+              src="/imgi_12_shutterstock-560580814%401320x1020_r.jpeg.webp"
               alt=""
               className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <img
-                src="src/assets/Images/download (2).svg"
+                src="/download (2).svg"
                 alt=""
                 className="w-32 sm:w-40 xl:w-50 h-auto object-contain"
               />
@@ -42,13 +42,13 @@ function Technologies() {
         <Link to="/power" className="block w-full xl:w-auto">
           <div className="relative w-full">
             <img
-              src="src/assets/Images/imgi_13_istock-155467403%401320x1020_r.jpeg.webp"
+              src="/imgi_13_istock-155467403%401320x1020_r.jpeg.webp"
               alt=""
               className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <img
-                src="src/assets/Images/download (3).svg"
+                src="/download (3).svg"
                 alt=""
                 className="w-32 sm:w-40 xl:w-50 h-auto object-contain"
               />
@@ -58,13 +58,13 @@ function Technologies() {
         <Link to="/brave" className="block w-full xl:w-auto">
           <div className="relative w-full">
             <img
-              src="src/assets/Images/imgi_15_shutterstock-2411698327%401320x1020_r.jpeg.webp"
+              src="/imgi_15_shutterstock-2411698327%401320x1020_r.jpeg.webp"
               alt=""
               className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <img
-                src="src/assets/Images/download (5).svg"
+                src="/download (5).svg"
                 alt=""
                 className="w-32 sm:w-40 xl:w-50 h-auto object-contain"
               />
@@ -76,13 +76,13 @@ function Technologies() {
       <Link to="/vapora" className="block w-full">
         <div className="relative w-full">
           <img
-            src="src/assets/Images/imgi_18_vaporapreview%401320x1020_r.jpeg.webp"
+            src="/imgi_18_vaporapreview%401320x1020_r.jpeg.webp"
             alt=""
             className="w-full h-[200px] sm:h-[250px] xl:h-[300px] object-cover rounded-lg"
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <img
-              src="src/assets/Images/download (6).svg"
+              src="/download (6).svg"
               alt=""
               className="w-32 sm:w-40 xl:w-50 h-auto object-contain"
             />

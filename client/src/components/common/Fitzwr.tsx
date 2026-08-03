@@ -8,7 +8,7 @@ function Fitzwr() {
         </p>
 
         <img
-          src="src/assets/Images/download (9).svg"
+          src="/download (9).svg"
           alt="FIT"
           className="w-20 object-contain"
         />
@@ -20,7 +20,7 @@ function Fitzwr() {
         </p>
 
         <img
-          src="src/assets/Images/download (1).svg"
+          src="/download (1).svg"
           alt="ZWR"
           className="w-30 object-contain"
         />

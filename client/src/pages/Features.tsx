@@ -16,12 +16,12 @@ function Features() {
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
               <img
-                src="src/assets/Images/download (1).svg"
+                src="/download (1).svg"
                 alt=""
                 className="w-40 sm:w-52 xl:w-60 h-auto max-w-[70%] object-contain"
               />
               <img
-                src="src/assets/Images/download (4).svg"
+                src="/download (4).svg"
                 alt=""
                 className="w-14 sm:w-16 xl:w-20 h-auto object-contain"
               />
@@ -57,12 +57,12 @@ function Features() {
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
               <img
-                src="src/assets/Images/download.svg"
+                src="/download.svg"
                 alt=""
                 className="w-48 sm:w-64 xl:w-80 h-auto max-w-[70%] object-contain"
               />
               <img
-                src="src/assets/Images/download (10).svg"
+                src="/download (10).svg"
                 alt=""
                 className="w-14 sm:w-16 xl:w-20 h-auto object-contain"
               />

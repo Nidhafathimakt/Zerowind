@@ -23,7 +23,7 @@ function Skin() {
 
         <div className="absolute inset-0 flex items-center justify-center py-10 sm:py-20">
           <img
-            src="src/assets/Images/imgi_24_untitled-761%40900xauto_r.png.webp"
+            src="/imgi_24_untitled-761%40900xauto_r.png.webp"
             alt=""
             className="w-40 sm:w-60 h-auto max-w-[55vw] object-contain"
           />
@@ -43,17 +43,17 @@ function Skin() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 xl:gap-12 items-center py-6 sm:py-10 px-4 max-w-lg xl:max-w-none mx-auto xl:mx-0">
             <div className="flex flex-col justify-center items-center text-center">
-              <img src="src/assets/Images/imgi_9_Livello-1-4.svg" alt="" className="w-10 h-10 object-contain" />
+              <img src="/imgi_9_Livello-1-4.svg" alt="" className="w-10 h-10 object-contain" />
               <p className="text-white text-[11px] tracking-wide mt-3">Total wind protection</p>
             </div>
             <div className="flex flex-col justify-center items-center text-center">
-              <img src="src/assets/Images/imgi_16_icon-3.svg" alt="" className="w-10 h-10 object-contain" />
+              <img src="/imgi_16_icon-3.svg" alt="" className="w-10 h-10 object-contain" />
               <p className="text-white text-[11px] tracking-wide mt-3 text-center">
                 Minimum bulk and maximum <br /> lightness
               </p>
             </div>
             <div className="flex flex-col justify-center items-center text-center sm:col-span-2 xl:col-span-1">
-              <img src="src/assets/Images/imgi_17_Risorsa-3.svg" alt="" className="w-10 h-10 object-contain" />
+              <img src="/imgi_17_Risorsa-3.svg" alt="" className="w-10 h-10 object-contain" />
               <p className="text-white text-[11px] tracking-wide mt-3">Strength and durability</p>
             </div>
           </div>
@@ -61,11 +61,11 @@ function Skin() {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 px-4">
             <div className="w-full sm:w-50 h-20 border border-gray-500 rounded-2xl flex flex-col items-center justify-center gap-3">
               <p className="uppercase text-gray-400 text-[10px] tracking-wider">Technology</p>
-              <img src="src/assets/Images/download (5).svg" alt="Brave" className="w-28 sm:w-35 h-auto object-contain" />
+              <img src="/download (5).svg" alt="Brave" className="w-28 sm:w-35 h-auto object-contain" />
             </div>
             <div className="w-full sm:w-45 h-20 border border-gray-500 rounded-2xl flex flex-col items-center justify-center gap-3">
               <p className="uppercase text-gray-400 text-[10px] tracking-wider">Feature</p>
-              <img src="src/assets/Images/download (1).svg" alt="ZWR" className="w-30 object-contain" />
+              <img src="/download (1).svg" alt="ZWR" className="w-30 object-contain" />
             </div>
           </div>
         </div>

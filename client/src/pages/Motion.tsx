@@ -20,7 +20,7 @@ function Motion() {
           </p>
 
           <img
-            src="src/assets/Images/download (2).svg"
+            src="/download (2).svg"
             alt="Motion"
             className="w-48 sm:w-100 xl:w-140 h-auto object-contain max-w-[90%]"
           />
@@ -39,19 +39,19 @@ function Motion() {
 
         <div className="mt-12 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-7 py-8 sm:py-15">
           <div className="w-full xl:w-[318px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_8_icon-334.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_8_icon-334.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">Waterproofness</p>
           </div>
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_9_Livello-1-4.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_9_Livello-1-4.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">Total wind protection</p>
           </div>
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_10_Group3-2_1.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_10_Group3-2_1.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">High breathability</p>
           </div>
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img src="src/assets/Images/imgi_11_Livello-1-6_1.svg" alt="" className="w-9 h-10 object-contain" />
+            <img src="/imgi_11_Livello-1-6_1.svg" alt="" className="w-9 h-10 object-contain" />
             <p className="text-white text-[11px] tracking-wide mt-3">Thermoregulation</p>
           </div>
         </div>
@@ -85,12 +85,12 @@ function Motion() {
 
         <div className="flex flex-col items-center justify-center">
           <img
-            src="src/assets/Images/imgi_22_ppellejkthy-23-aranci-web%40900xauto_r.png.webp"
+            src="/imgi_22_ppellejkthy-23-aranci-web%40900xauto_r.png.webp"
             alt=""
             className="w-40 sm:w-55 h-auto mt-10 sm:mt-15 object-contain"
           />
           <img
-            src="src/assets/Images/imgi_25_untitled-759%40900xauto_r.png.webp"
+            src="/imgi_25_untitled-759%40900xauto_r.png.webp"
             alt=""
             className="w-40 sm:w-55 h-auto mt-16 sm:mt-25 object-contain"
           />
@@ -101,13 +101,13 @@ function Motion() {
         <div className="w-full flex homeBgColor px-4 sm:px-5 py-12 sm:py-20">
           <div className="relative w-full">
             <img
-              src="src/assets/Images/imgi_13_istock-155467403%401320x1020_r.jpeg.webp"
+              src="/imgi_13_istock-155467403%401320x1020_r.jpeg.webp"
               alt=""
               className="w-full h-[200px] sm:h-[280px] object-cover rounded-lg"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-white uppercase px-4">
               <p className="text-[9px] font-semibold tracking-[0.1em]">Discover the</p>
-              <img src="src/assets/Images/download (3).svg" alt="" className="w-40 sm:w-60 object-contain max-w-[80%]" />
+              <img src="/download (3).svg" alt="" className="w-40 sm:w-60 object-contain max-w-[80%]" />
               <p className="text-[9px] font-semibold tracking-[0.1em]">Technology</p>
             </div>
           </div>

@@ -20,7 +20,7 @@ function Fit() {
           </p>
 
           <img
-            src="src/assets/Images/download (9).svg"
+            src="/download (9).svg"
             alt="Fit"
             className="w-32 sm:w-44 xl:w-52 h-auto object-contain"
           />
@@ -39,7 +39,7 @@ function Fit() {
         <div className="mt-12 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-7 py-8 sm:py-15">
           <div className="w-full xl:w-[318px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
             <img
-              src="src/assets/Images/imgi_8_icon-334.svg"
+              src="/imgi_8_icon-334.svg"
               alt=""
               className="w-9 h-10 object-contain"
             />
@@ -50,7 +50,7 @@ function Fit() {
 
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
             <img
-              src="src/assets/Images/imgi_9_Livello-1-4.svg"
+              src="/imgi_9_Livello-1-4.svg"
               alt=""
               className="w-9 h-10 object-contain"
             />
@@ -61,7 +61,7 @@ function Fit() {
 
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
             <img
-              src="src/assets/Images/imgi_10_Group3-2_1.svg"
+              src="/imgi_10_Group3-2_1.svg"
               alt=""
               className="w-9 h-10 object-contain"
             />
@@ -72,7 +72,7 @@ function Fit() {
 
           <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
             <img
-              src="src/assets/Images/imgi_11_Livello-1-6_1.svg"
+              src="/imgi_11_Livello-1-6_1.svg"
               alt=""
               className="w-9 h-10 object-contain"
             />
@@ -113,17 +113,17 @@ function Fit() {
 
         <div className="flex flex-col items-center justify-center">
           <img
-            src="src/assets/Images/imgi_20_web10-05-006-005-rain-jacket-long-sleeve-selkie-unisex-ultrablue-12%40900xauto_r.png.webp"
+            src="/imgi_20_web10-05-006-005-rain-jacket-long-sleeve-selkie-unisex-ultrablue-12%40900xauto_r.png.webp"
             alt=""
             className="w-40 sm:w-55 h-auto mt-10 sm:mt-15 object-contain"
           />
           <img
-            src="src/assets/Images/imgi_25_untitled-759%40900xauto_r.png.webp"
+            src="/imgi_25_untitled-759%40900xauto_r.png.webp"
             alt=""
             className="w-40 sm:w-55 h-auto mt-16 sm:mt-25 object-contain"
           />
           <img
-            src="src/assets/Images/imgi_23_cortavientos-pro-team-tibet%40900xauto_r.png.webp"
+            src="/imgi_23_cortavientos-pro-team-tibet%40900xauto_r.png.webp"
             alt=""
             className="w-40 sm:w-53 h-auto mt-16 sm:mt-25 object-contain"
           />
@@ -134,7 +134,7 @@ function Fit() {
         <div className="w-full flex homeBgColor px-4 sm:px-5 py-12 sm:py-20">
           <div className="relative w-full">
             <img
-              src="src/assets/Images/Motion.webp"
+              src="/Motion.webp"
               alt=""
               className="w-full h-[200px] sm:h-[280px] object-cover rounded-lg"
             />
@@ -145,7 +145,7 @@ function Fit() {
               </p>
 
               <img
-                src="src/assets/Images/download (2).svg"
+                src="/download (2).svg"
                 alt=""
                 className="w-40 sm:w-70 object-contain max-w-[80%]"
               />

@@ -25,7 +25,7 @@ function Bergamo() {
 
         <div className="absolute inset-0 flex items-center justify-center py-10 sm:py-20">
           <img
-            src="src/assets/Images/imgi_21_untitled-758%40900xauto_r.png.webp"
+            src="/imgi_21_untitled-758%40900xauto_r.png.webp"
             alt=""
             className="w-40 sm:w-60 h-auto max-w-[55vw] object-contain"
           />
