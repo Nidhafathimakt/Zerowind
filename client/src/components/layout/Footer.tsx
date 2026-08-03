@@ -145,9 +145,9 @@ function Footer() {
         </div>
 
         <div className="flex flex-row lg:flex-col gap-5 pb-6 lg:pb-0">
-          <img src="src/assets/Images/download (12).svg" alt="" className="w-4 h-4" />
-          <img src="src/assets/Images/download (13).svg" alt="" className="w-4 h-4" />
-          <img src="src/assets/Images/download (11).svg" alt="" className="w-4 h-4" />
+          <img src="/download (12).svg" alt="" className="w-4 h-4" />
+          <img src="/download (13).svg" alt="" className="w-4 h-4" />
+          <img src="/download (11).svg" alt="" className="w-4 h-4" />
         </div>
       </div>
 

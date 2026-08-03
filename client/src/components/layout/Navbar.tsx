@@ -54,7 +54,7 @@ const Navbar = () => {
   "
           >
             <img
-              src="src/assets/Images/download (8).svg"
+              src="/download (8).svg"
               alt="ZeroWind"
               className="max-w-full h-auto"
             />
