@@ -1,8 +1,29 @@
 import ExpertAdvice from "../components/common/ExpertAdvice";
 import Technologies from "./Technologies";
 import { Link } from "react-router-dom";
+import { motion, useAnimationFrame, useInView, useMotionValue } from "framer-motion";
+import { useRef } from "react";
+
 
 function Home() {
+  const items = Array(8).fill("DISCOVER OUR PRODUCTS .");
+ 
+ const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  const x = useMotionValue(0);
+
+  useAnimationFrame(( delta) => {
+    const speed = 0.05;
+
+    x.set(x.get() - delta * speed);
+
+    if (x.get() <= -300) {
+      x.set(0);
+    }
+  });
+  //   const ref = useRef(null);
+  // const isInView = useInView(ref, { once: true });
   return (
     <main className="min-h-screen homeBgColor pt-17 overflow-x-hidden">
       <div className="px-4 sm:px-5 py-6 sm:py-8">
@@ -17,67 +38,88 @@ function Home() {
             playsInline
             className="absolute inset-0 h-full w-full object-cover rounded-lg"
           />
+<div className="absolute inset-0 z-10">
+  {/* Better */}
+  <motion.h1
+    initial={{ x: 350, y: -30, opacity: 0 }}
+    animate={{ x: 0, y: 0, opacity: 1 }}
+    transition={{
+      duration: 1.2,
+      ease: [0.16, 1, 0.3, 1],
+    }}
+    className="
+      absolute
+      left-2 sm:left-4 xl:left-6
+      
+      text-[14vw] sm:text-[12vw]
+      font-black
+      uppercase
+      text-transparent
+      origin-left
+      scale-x-110
+      scale-y-[0.8]
+      [-webkit-text-stroke:1px_#E8FF00]
+    "
+    style={{ fontFamily: '"GT America Exp Black", sans-serif' }}
+  >
+    Better
+  </motion.h1>
 
-          {/* Text */}
-          <div className="absolute inset-0 z-10 flex flex-col justify-center items-center xl:block">
-            <h1
-              className="
-    absolute
-    left-2 sm:left-4 xl:left-auto
-    top-[8%] sm:top-[10%] xl:top-auto
-    text-[14vw] sm:text-[12vw]
-    font-black
-    uppercase
-    text-transparent
-    origin-left
-    scale-x-110
-    scale-y-[0.8]
-    [-webkit-text-stroke:1px_#E8FF00]
-  "
-              style={{ fontFamily: '"GT America Exp Black", sans-serif' }}
-            >
-              Better
-            </h1>
+  {/* In */}
+  <motion.h1
+    initial={{ x: 350, opacity: 0 }}
+    animate={{ x: 0, opacity: 1 }}
+    transition={{
+      duration: 1.2,
+      delay: 0.2,
+      ease: [0.16, 1, 0.3, 1],
+    }}
+    className="
+      absolute
+      top-[38%] sm:top-[42%] xl:top-[45%]
+      right-[15%] sm:right-20 xl:right-25
+      -translate-y-1/2
+      text-[14vw] sm:text-[12vw]
+      font-black
+      uppercase
+      leading-none
+      text-transparent
+      scale-x-110
+      scale-y-[0.8]
+      [-webkit-text-stroke:1px_#E8FF00]
+    "
+    style={{ fontFamily: '"GT America Exp Black", sans-serif' }}
+  >
+    In
+  </motion.h1>
 
-            <h1
-              className="
-              absolute
-              top-[38%] sm:top-[42%] xl:top-[45%]
-              right-[15%] sm:right-20 xl:right-25
-              -translate-y-1/2
-              text-[14vw] sm:text-[12vw]
-              font-black
-              uppercase
-              leading-none
-              text-transparent
-              scale-x-110
-               scale-y-[0.8]
-              [-webkit-text-stroke:1px_#E8FF00]
-            "
-              style={{ fontFamily: '"GT America Exp Black", sans-serif' }}
-            >
-              In
-            </h1>
-
-            <h1
-              className="
-              absolute
-              top-[52%] sm:top-[53%]
-              right-[5%] sm:right-8 xl:right-10
-              text-[14vw] sm:text-[12vw]
-              font-black
-              uppercase
-              leading-none
-              text-transparent
-              scale-x-110
-    scale-y-[0.8]
-              [-webkit-text-stroke:1px_#E8FF00]
-            "
-              style={{ fontFamily: '"GT America Exp Black", sans-serif' }}
-            >
-              Motion
-            </h1>
-          </div>
+  {/* Motion */}
+  <motion.h1
+    initial={{ x: 350, opacity: 0 }}
+    animate={{ x: 0, opacity: 1 }}
+    transition={{
+      duration: 1.2,
+      delay: 0.4,
+      ease: [0.16, 1, 0.3, 1],
+    }}
+    className="
+      absolute
+      top-[52%] sm:top-[53%]
+      right-[5%] sm:right-8 xl:right-10
+      text-[14vw] sm:text-[12vw]
+      font-black
+      uppercase
+      leading-none
+      text-transparent
+      scale-x-110
+      scale-y-[0.8]
+      [-webkit-text-stroke:1px_#E8FF00]
+    "
+    style={{ fontFamily: '"GT America Exp Black", sans-serif' }}
+  >
+    Motion
+  </motion.h1>
+</div>
         </section>
         <Technologies />
       </div>
@@ -98,20 +140,40 @@ function Home() {
               fontFamily: '"GT America Exp Black", sans-serif',
             }}
           >
-            ZeroWind creates
+            ZeroWind creates 
             <span className="text-[#E8FF00]">smart</span>
             <br />
             fabrics
           </h1>
 
+<motion.div
+      ref={ref}
+      initial={{
+        opacity: 0,
+        y: 20,
+      }}
+      animate={
+        isInView
+          ? {
+              opacity: 1,
+              y: 0,
+            }
+          : {}
+      }
+      transition={{
+        duration: 0.05  ,
+      }}
+    >
           <div className="mt-8 sm:mt-12 xl:mt-18 max-w-3xl ps-0 xl:ps-20 mx-auto xl:mx-0 text-center xl:text-left">
-            <p className="text-white text-base sm:text-lg xl:text-xl leading-[1.3]">
+            <p className="text-white text-base sm:text-lg md:text-2xl leading-[1.3]">
               Passion for outdoor activities and pursuit of <br className="hidden sm:block" /> technicality
               make ZeroWind the ideal brand for <br className="hidden sm:block" /> creating performance
               fabrics for a wide range of <br className="hidden sm:block" /> uses
             </p>
           </div>
+          </motion.div>
         </div>
+
 
         <section className="mt-10 sm:mt-14 xl:mt-17 ps-0 xl:ps-20 px-4 sm:px-5">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
@@ -191,6 +253,24 @@ function Home() {
           </Link>
         </div>
       </section>
+
+<div className="flex justify-center">
+  <div className="w-[150px] overflow-hidden">
+    <motion.div
+      className="flex whitespace-nowrap will-change-transform"
+      style={{ x }}
+    >
+      {[...items, ...items, ...items].map((text, i) => (
+        <span
+          key={i}
+          className="mr-2 shrink-0 text-xs uppercase tracking-[0.15em] text-gray-400"
+        >
+          {text}
+        </span>
+      ))}
+    </motion.div>
+  </div>
+</div>
 
       <section>
         <div className="relative py-12 sm:py-16 xl:py-20 flex justify-center items-center mt-16 sm:mt-24 xl:mt-30 px-4">

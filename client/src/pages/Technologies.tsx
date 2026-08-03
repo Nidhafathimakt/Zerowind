@@ -9,7 +9,7 @@ function Technologies() {
             <img
               src="/imgi_7_shutterstock-1022568799%401320x1020_r.jpeg.webp"
               alt=""
-              className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
+              className="w-full xl:w-[600px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <img
@@ -25,7 +25,7 @@ function Technologies() {
             <img
               src="/imgi_12_shutterstock-560580814%401320x1020_r.jpeg.webp"
               alt=""
-              className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
+              className="w-full xl:w-[600px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <img
@@ -44,7 +44,7 @@ function Technologies() {
             <img
               src="/imgi_13_istock-155467403%401320x1020_r.jpeg.webp"
               alt=""
-              className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
+              className="w-full xl:w-[600px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <img
@@ -60,7 +60,7 @@ function Technologies() {
             <img
               src="/imgi_15_shutterstock-2411698327%401320x1020_r.jpeg.webp"
               alt=""
-              className="w-full xl:w-[500px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
+              className="w-full xl:w-[600px] xl:max-w-none max-w-full h-[220px] sm:h-[280px] xl:h-[350px] object-cover rounded-lg mx-auto xl:mx-0"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <img
@@ -78,7 +78,7 @@ function Technologies() {
           <img
             src="/imgi_18_vaporapreview%401320x1020_r.jpeg.webp"
             alt=""
-            className="w-full h-[200px] sm:h-[250px] xl:h-[300px] object-cover rounded-lg"
+            className="w-full h-[200px] sm:h-[300px] xl:h-[400px] object-cover rounded-lg"
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <img

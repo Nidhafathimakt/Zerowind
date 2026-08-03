@@ -1,28 +1,43 @@
 import { Link } from "react-router-dom";
-
+ import { motion } from "framer-motion";
 function Footer() {
   return (
     <footer className="buttonBackground min-h-screen w-full flex flex-col overflow-hidden mainFont">
-      <div className="pt-6 overflow-hidden px-4 sm:px-6 lg:px-0">
-        <h1
-          className="
-  mainFont
-    text-[12vw]
-    sm:text-[10vw]
-    xl:text-[100px]
-    leading-none
-    xl:leading-[100px]
-    font-black
-    uppercase
-    xl:whitespace-nowrap
-    text-transparent
-    [-webkit-text-stroke:1px_rgb(39,39,39)]
-  "
-        >
-          Better in Motion
-        </h1>
-      </div>
+     
 
+<div className="w-full overflow-hidden py-6">
+  <motion.div
+    className="flex whitespace-nowrap will-change-transform"
+    animate={{ x: ["0%", "-50%"] }}
+    transition={{
+      duration: 8,
+      ease: "linear",
+      repeat: Infinity,
+    }}
+  >
+    {Array.from({ length: 4 }).map((_, i) => (
+      <h1
+        key={i}
+        className="
+          mr-0
+          shrink-0
+          mainFont
+          text-[12vw]
+          sm:text-[10vw]
+          xl:text-[100px]
+          leading-none
+          font-black
+          uppercase
+          whitespace-nowrap
+          text-transparent
+          [-webkit-text-stroke:1px_rgb(39,39,39)]
+        "
+      >
+        Better in Motion&nbsp;
+      </h1>
+    ))}
+  </motion.div>
+</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 xl:gap-30 px-5 sm:px-10 xl:ps-25 mt-10 sm:mt-16 xl:mt-20 font-stretch-extra-expanded tracking-wide text-center sm:text-left">
         <div>
           <h1 className="text-sm">Technologies</h1>
