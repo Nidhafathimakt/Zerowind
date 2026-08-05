@@ -1,6 +1,10 @@
+// import { motion, useAnimationFrame, useMotionValue } from "framer-motion";
 import ContactButton from "../components/common/ContactButton";
+import FeaturesMarquee from "../components/common/FeaturesMarque";
 
 function Features() {
+
+
   return (
     <div className="min-h-screen pt-10 pb-15 homeBgColor overflow-x-hidden">
       <section className="px-4 sm:px-5 py-5 mt-6 sm:mt-10">
@@ -15,6 +19,28 @@ function Features() {
               className="h-52 sm:h-72 md:h-86 w-full xl:w-[1000px] object-cover rounded-lg"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
+              {/* <div className="overflow-hidden w-[80px]">
+                <motion.div
+                  animate={{ x: ["0%", "-50%"] }}
+                  transition={{
+                    duration: 1, // Faster
+                    ease: "linear",
+                    repeat: Infinity,
+                  }}
+                  className="flex whitespace-nowrap"
+                >
+                  {Array.from({ length: 20 }).map((_, i) => (
+                    <span
+                      key={i}
+                      className="mr-1 shrink-0 text-sm uppercase tracking-[0.1em] text-white mb-5"
+                    >
+                      Features .
+                    </span>
+                  ))}
+                </motion.div>
+              </div> */}
+
+              <FeaturesMarquee />
               <img
                 src="/download (1).svg"
                 alt=""
@@ -36,9 +62,11 @@ function Features() {
               Repellent treatment, in full <br className="hidden sm:block" />
               compliance with the <br className="hidden sm:block" />
               environment and international <br className="hidden sm:block" />
-              regulations. The water repellent <br className="hidden sm:block" />
+              regulations. The water repellent{" "}
+              <br className="hidden sm:block" />
               component applied to the fabric <br className="hidden sm:block" />
-              is totally PFAS-free and ensures <br className="hidden sm:block" />
+              is totally PFAS-free and ensures{" "}
+              <br className="hidden sm:block" />
               the garment's breathability and <br className="hidden sm:block" />
               quick drying.
             </p>
@@ -56,6 +84,29 @@ function Features() {
               className="h-52 sm:h-72 md:h-90 w-full xl:w-[1000px] object-cover rounded-lg"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center">
+              {/* <div className="overflow-hidden w-[80px]">
+                <motion.div
+                  animate={{ x: ["0%", "-50%"] }}
+                  transition={{
+                    duration: 1, // Faster
+                    ease: "linear",
+                    repeat: Infinity,
+                  }}
+                  className="flex whitespace-nowrap"
+                >
+                  {Array.from({ length: 20 }).map((_, i) => (
+                    <span
+                      key={i}
+                      className="mr-1 mb-5 shrink-0 text-sm uppercase tracking-[0.1em] text-white"
+                    >
+                      Features .
+                    </span>
+                  ))}
+                </motion.div>
+              </div> */}
+
+              <FeaturesMarquee />
+
               <img
                 src="/download.svg"
                 alt=""
@@ -74,15 +125,19 @@ function Features() {
             </h1>
             <p className="font-extrabold tracking-wide text-xl sm:text-2xl xl:text-3xl leading-7 sm:leading-8 text-white">
               We care about performance but <br className="hidden sm:block" />
-              also about the well-being of the <br className="hidden sm:block" />
-              environment and people, which is <br className="hidden sm:block" />
+              also about the well-being of the{" "}
+              <br className="hidden sm:block" />
+              environment and people, which is{" "}
+              <br className="hidden sm:block" />
               why we study increasingly <br className="hidden sm:block" />
-              eco-friendly and planet-friendly <br className="hidden sm:block" />
+              eco-friendly and planet-friendly{" "}
+              <br className="hidden sm:block" />
               solutions.ZeroWind fabric lines <br className="hidden sm:block" />
               can be produced with polyester <br className="hidden sm:block" />
               yarns derived from recycled <br className="hidden sm:block" />
               post-consumer materials, and <br className="hidden sm:block" />
-              are themselves recyclable at the <br className="hidden sm:block" />
+              are themselves recyclable at the{" "}
+              <br className="hidden sm:block" />
               end of their lives.
             </p>
             <ContactButton />
