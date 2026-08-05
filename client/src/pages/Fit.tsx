@@ -49,9 +49,9 @@ function Fit() {
       sm:text-[42px]
       md:text-[38px]
       lg:text-[28px]
-      xl:text-[40px]
+      xl:text-[42px]
       leading-[1.1]
-      tracking-[-0.03em] flex justify-center items-center 
+      tracking-[-0.03em] flex text-left  
     "
   >
     FIT is ZeroWind's line of 2-layer fabrics,
@@ -118,50 +118,50 @@ function Fit() {
     mt-14
     lg:mt-20
     grid
-    grid-cols-1
+grid-cols-2
     sm:grid-cols-2
-    xl:grid-cols-4
+    md:grid-cols-4
     gap-5
-    xl:gap-8
+    xl:gap-8  sm:items-center
   "
 >
 
-  <div className="border border-[#E8FF00] rounded-2xl h-[170px] flex flex-col justify-center items-center">
+  <div className="border border-[#E8FF00] rounded-2xl w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
       <img
         src="/imgi_8_icon-334.svg"
         className="w-12 h-12"
       />
-      <p className="text-white mt-5 text-lg">
+      <p className="text-white mt-5 xl:text-lg sm:text-xs">
         Waterproofness
       </p>
   </div>
 
-  <div className="border border-[#E8FF00] rounded-2xl h-[170px] flex flex-col justify-center items-center">
+  <div className="border border-[#E8FF00] rounded-2xl  w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
       <img
         src="/imgi_9_Livello-1-4.svg"
         className="w-12 h-12"
       />
-      <p className="text-white mt-5 text-lg">
+      <p className="text-white mt-5 xl:text-lg sm:text-xs">
         Total wind protection
       </p>
   </div>
 
-  <div className="border border-[#E8FF00] rounded-2xl h-[170px] flex flex-col justify-center items-center">
+  <div className="border border-[#E8FF00] rounded-2xl  w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
       <img
         src="/imgi_10_Group3-2_1.svg"
         className="w-12 h-12"
       />
-      <p className="text-white mt-5 text-lg">
+      <p className="text-white mt-5 xl:text-lg sm:text-xs">
         High breathability
       </p>
   </div>
 
-  <div className="border border-[#E8FF00] rounded-2xl h-[170px] flex flex-col justify-center items-center">
+  <div className="border border-[#E8FF00] rounded-2xl   w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
       <img
         src="/imgi_11_Livello-1-6_1.svg"
         className="w-12 h-12"
       />
-      <p className="text-white mt-5 text-lg">
+      <p className="text-white mt-5 xl:text-lg sm:text-xs">
         Thermoregulation
       </p>
   </div>
@@ -188,11 +188,11 @@ function Fit() {
 <p
 className="
 text-white
-text-[18px]
+text-[25px]
 sm:text-[20px]
-lg:text-[24px]
+lg:text-[28px]
 leading-[1.45]
-max-w-[950px]
+max-w-[1000px]  text-left
 "
 >
 
