@@ -27,7 +27,7 @@ function DiscoverProductsMarque() {
     x.set(next);
   });
   return (
- <div className="overflow-hidden w-[200px]">
+ <div className="overflow-hidden mt-5 w-[200px]">
       <motion.div
         ref={contentRef}
         style={{ x }}
@@ -36,7 +36,7 @@ function DiscoverProductsMarque() {
         {[...items, ...items].map((item, i) => (
           <span
             key={i}
-            className="mr-2 shrink-0 text-sm uppercase tracking-[0.1em] text-gray-400"
+            className="mr-2  shrink-0 text-sm uppercase tracking-[0.1em] text-gray-400"
           >
             {item}
           </span>
