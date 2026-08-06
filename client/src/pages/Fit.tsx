@@ -1,4 +1,3 @@
-
 import ExpertAdvice from "../components/common/ExpertAdvice";
 import { Link } from "react-router-dom";
 import DiscoverProductsMarque from "../components/common/DiscoverProductsMarque";
@@ -30,19 +29,9 @@ function Fit() {
       </div>
 
       <div className="min-h-screen homeBgColor pt-16 sm:pt-24 px-5 sm:px-10 xl:px-30">
-        {/* <div>
-          <p className="text-2xl sm:text-3xl xl:text-4xl text-white font-extrabold text-center xl:text-left leading-snug">
-            FIT is ZeroWind's line of 2-layer fabrics,{" "}
-            <br className="hidden sm:block" /> perfect for creating breathable,
-            fully <br className="hidden sm:block" /> windproof and waterproof
-            outdoor <br className="hidden sm:block" /> sportswear garments
-            suitable for <br className="hidden sm:block" /> mid-seasons.
-          </p>
-        </div> */}
         <div className="pt-16 lg:pt-24">
-
-  <h1
-    className="
+          <h1
+            className="
       text-white
       font-extrabold
       text-[32px]
@@ -53,140 +42,57 @@ function Fit() {
       leading-[1.1]
       tracking-[-0.03em] flex text-left  
     "
-  >
-    FIT is ZeroWind's line of 2-layer fabrics,
-   
-    perfect for creating breathable, fully
-
-    windproof and waterproof outdoor
-    
-    sportswear garments suitable for
-   
-    mid-seasons.
-  </h1>
-
-</div>
-
-        {/* <div className="mt-12 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-7 py-8 sm:py-15">
-          <div className="w-full xl:w-[318px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img
-              src="/imgi_8_icon-334.svg"
-              alt=""
-              className="w-9 h-10 object-contain"
-            />
-            <p className="text-white text-[11px] tracking-wide mt-3">
-              Waterproofness
-            </p>
-          </div>
-
-          <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img
-              src="/imgi_9_Livello-1-4.svg"
-              alt=""
-              className="w-9 h-10 object-contain"
-            />
-            <p className="text-white text-[11px] tracking-wide mt-3">
-              Total wind protection
-            </p>
-          </div>
-
-          <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img
-              src="/imgi_10_Group3-2_1.svg"
-              alt=""
-              className="w-9 h-10 object-contain"
-            />
-            <p className="text-white text-[11px] tracking-wide mt-3">
-              High breathability
-            </p>
-          </div>
-
-          <div className="w-full xl:w-[300px] h-[118px] border border-[#E8FF00] rounded-xl flex flex-col items-center justify-center mx-auto xl:mx-0">
-            <img
-              src="/imgi_11_Livello-1-6_1.svg"
-              alt=""
-              className="w-9 h-10 object-contain"
-            />
-            <p className="text-white text-[11px] tracking-wide mt-3">
-              Thermoregulation
-            </p>
-          </div>
-        </div> */}
+          >
+            FIT is ZeroWind's line of 2-layer fabrics, perfect for creating
+            breathable, fully windproof and waterproof outdoor sportswear
+            garments suitable for mid-seasons.
+          </h1>
+        </div>
 
         <div
-  className="
+          className="
     mt-14
     lg:mt-20
     grid
-grid-cols-2
+    grid-cols-2
     sm:grid-cols-2
     md:grid-cols-4
     gap-5
     xl:gap-8  sm:items-center
   "
->
+        >
+          <div className="border border-[#E8FF00] rounded-2xl w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
+            <img src="/imgi_8_icon-334.svg" className="w-12 h-12" />
+            <p className="text-white mt-5 xl:text-lg sm:text-xs">
+              Waterproofness
+            </p>
+          </div>
 
-  <div className="border border-[#E8FF00] rounded-2xl w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
-      <img
-        src="/imgi_8_icon-334.svg"
-        className="w-12 h-12"
-      />
-      <p className="text-white mt-5 xl:text-lg sm:text-xs">
-        Waterproofness
-      </p>
-  </div>
+          <div className="border border-[#E8FF00] rounded-2xl  w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
+            <img src="/imgi_9_Livello-1-4.svg" className="w-12 h-12" />
+            <p className="text-white mt-5 xl:text-lg sm:text-xs">
+              Total wind protection
+            </p>
+          </div>
 
-  <div className="border border-[#E8FF00] rounded-2xl  w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
-      <img
-        src="/imgi_9_Livello-1-4.svg"
-        className="w-12 h-12"
-      />
-      <p className="text-white mt-5 xl:text-lg sm:text-xs">
-        Total wind protection
-      </p>
-  </div>
+          <div className="border border-[#E8FF00] rounded-2xl  w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
+            <img src="/imgi_10_Group3-2_1.svg" className="w-12 h-12" />
+            <p className="text-white mt-5 xl:text-lg sm:text-xs">
+              High breathability
+            </p>
+          </div>
 
-  <div className="border border-[#E8FF00] rounded-2xl  w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
-      <img
-        src="/imgi_10_Group3-2_1.svg"
-        className="w-12 h-12"
-      />
-      <p className="text-white mt-5 xl:text-lg sm:text-xs">
-        High breathability
-      </p>
-  </div>
-
-  <div className="border border-[#E8FF00] rounded-2xl   w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
-      <img
-        src="/imgi_11_Livello-1-6_1.svg"
-        className="w-12 h-12"
-      />
-      <p className="text-white mt-5 xl:text-lg sm:text-xs">
-        Thermoregulation
-      </p>
-  </div>
-
-</div>
-
-        {/* <div>
-          <p className="text-white text-base sm:text-lg xl:text-xl text-center xl:text-left">
-            The construction of these fabrics and their totally PFAS-free
-            hydrophilic <br className="hidden xl:block" /> membrane create
-            garments that combine high performance with extraordinary{" "}
-            <br className="hidden xl:block" /> comfort that enhances the
-            technicality of the material. <br className="hidden xl:block" />
-            As confirmed by laboratory tests, this technology promotes the
-            passage of <br className="hidden xl:block" /> moisture to the
-            outside through osmosis, and breathability increases dynamically{" "}
-            <br className="hidden xl:block" /> as the exertion intensifies,
-            keeping the inside of the garment dry.
-          </p>
-        </div> */}
+          <div className="border border-[#E8FF00] rounded-2xl   w-[160px] lg:w-[200px] sm:w-[150px] md:w-[180px] h-[170px] flex flex-col justify-center items-center">
+            <img src="/imgi_11_Livello-1-6_1.svg" className="w-12 h-12" />
+            <p className="text-white mt-5 xl:text-lg sm:text-xs">
+              Thermoregulation
+            </p>
+          </div>
+        </div>
 
         <div className="mt-16 lg:mt-24">
-
-<p
-className="
+          <p
+            className="
 text-white
 text-[25px]
 sm:text-[20px]
@@ -194,17 +100,18 @@ lg:text-[28px]
 leading-[1.45]
 max-w-[1000px]  text-left
 "
->
-
-The construction of these fabrics and their totally PFAS-free hydrophilic membrane create garments that combine high performance with extraordinary comfort that enhances the technicality of the material.
-
-<br />
-
-As confirmed by laboratory tests, this technology promotes the passage of moisture to the outside through osmosis, and breathability increases dynamically as the exertion intensifies, keeping the inside of the garment dry.
-
-</p>
-
-</div>
+          >
+            The construction of these fabrics and their totally PFAS-free
+            hydrophilic membrane create garments that combine high performance
+            with extraordinary comfort that enhances the technicality of the
+            material.
+            <br />
+            As confirmed by laboratory tests, this technology promotes the
+            passage of moisture to the outside through osmosis, and
+            breathability increases dynamically as the exertion intensifies,
+            keeping the inside of the garment dry.
+          </p>
+        </div>
 
         {/* <div className="flex flex-col md:flex-row items-center gap-8 md:gap-20 text-center mt-12 sm:mt-20">
           <video
@@ -231,7 +138,8 @@ As confirmed by laboratory tests, this technology promotes the passage of moistu
             items-center
             justify-between
             gap-12
-            ">
+            "
+        >
           <video
             src="/cf5ecee7.mp4"
             autoPlay

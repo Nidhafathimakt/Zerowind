@@ -129,7 +129,7 @@ function Home() {
             fabrics
           </h1>
 
-          <div className="mt-8 sm:mt-12 xl:mt-18 max-w-3xl ps-0 xl:ps-20 mx-auto xl:mx-0 text-center xl:text-left">
+          {/* <div className="mt-8 sm:mt-12 xl:mt-18 max-w-3xl ps-0 xl:ps-20 mx-auto xl:mx-0 text-center xl:text-left">
             <p className="text-white text-base sm:text-lg md:text-2xl leading-[1.3]">
               Passion for outdoor activities and pursuit of{" "}
               <br className="hidden sm:block" /> technicality make ZeroWind the
@@ -137,7 +137,28 @@ function Home() {
               performance fabrics for a wide range of{" "}
               <br className="hidden sm:block" /> uses
             </p>
-          </div>
+          </div> */}
+
+          <motion.div
+            className="mt-8 sm:mt-12 xl:mt-18 max-w-3xl ps-0 xl:ps-20 mx-auto xl:mx-0 text-center xl:text-left"
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{
+              duration: 1.5,
+              ease: "easeOut",
+            }}
+          >
+            <p className="text-white text-base sm:text-lg md:text-2xl leading-[1.3]">
+              Passion for outdoor activities and pursuit of{" "}
+              <br className="hidden sm:block" />
+              technicality make ZeroWind the ideal brand for
+              <br className="hidden sm:block" />
+              creating performance fabrics for a wide range of{" "}
+              <br className="hidden sm:block" />
+              uses
+            </p>
+          </motion.div>
         </div>
 
         <section className="mt-10 sm:mt-14 xl:mt-17 ps-0 xl:ps-20 px-4 sm:px-5">
@@ -167,8 +188,8 @@ function Home() {
         </Link>
       </div>
 
-      <section className="px-4 sm:px-5 py-5 mt-8 sm:mt-10">
-        <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center">
+      {/* <section className="px-4 sm:px-5 py-5 mt-8 sm:mt-10">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center justify-center">
           <Link to="/features" className="w-full md:w-auto">
             <div className="relative w-full max-w-[460px] mx-auto md:mx-0">
               <video
@@ -193,7 +214,7 @@ function Home() {
             </div>
           </Link>
           <Link to="/features" className="w-full md:w-auto">
-            <div className="relative w-full max-w-[460px] mx-auto md:mx-0">
+            <div className="relative w-full max-w-[460px] mx-auto md:mx-0 ">
               <video
                 src="/592ec493.mp4"
                 autoPlay
@@ -203,7 +224,7 @@ function Home() {
                 className="h-52 sm:h-64 md:h-72 xl:h-82 w-full xl:w-115 object-cover rounded-lg"
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <FeaturesMarquee  />
+                <FeaturesMarquee />
                 <img
                   src="/download.svg"
                   alt=""
@@ -218,14 +239,91 @@ function Home() {
             </div>
           </Link>
         </div>
-      </section>
+      </section> */}
 
-      
+      <section className="w-full px-4 sm:px-6 lg:px-8 xl:px-10 py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 xl:gap-8 justify-items-center">
+          {/* First Card */}
+          <Link to="/features" className="w-full max-w-[620px]">
+            <div className="relative overflow-hidden rounded-xl">
+              <video
+                src="/0a804172.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-[240px] sm:h-[300px] md:h-[340px] xl:h-[420px] object-cover"
+              />
+
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <FeaturesMarquee />
+
+                <img
+                  src="/download (1).svg"
+                  alt=""
+                  className="w-40 sm:w-48 lg:w-56 xl:w-64 object-contain"
+                />
+
+                <motion.img
+  src="/download (4).svg"
+  alt=""
+ className="w-14 sm:w-16 xl:w-15 mt-2 object-contain brightness-0 invert mt-8"
+  animate={{
+    y: [0, -12, 0],
+  }}
+  transition={{
+    duration: 8,
+    repeat: Infinity,
+    ease: "easeInOut",
+  }}
+/>
+              </div>
+            </div>
+          </Link>
+
+          {/* Second Card */}
+          <Link to="/features" className="w-full max-w-[620px]">
+            <div className="relative overflow-hidden rounded-xl">
+              <video
+                src="/592ec493.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-[240px] sm:h-[300px] md:h-[340px] xl:h-[420px] object-cover"
+              />
+
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <FeaturesMarquee />
+
+                <img
+                  src="/download.svg"
+                  alt=""
+                  className="w-40 sm:w-48 lg:w-56 xl:w-64 object-contain"
+                />
+
+                {/* Rotating Logo */}
+                <motion.img
+                  src="/download (10).svg"
+                  alt=""
+                  className="w-14 sm:w-16 xl:w-20 object-contain mt-5"
+                  animate={{ rotate: 360 }}
+                  transition={{
+                    duration: 8,
+                    repeat: Infinity,
+                    ease: "linear",
+                  }}
+                />
+              </div>
+            </div>
+          </Link>
+        </div>
+      </section>
 
       <section>
         <div className="flex justify-center py-12 sm:py-16 xl:py-20  items-center mt-16 sm:mt-24 xl:mt-30 ">
-        <DiscoverProductsMarque />
-      </div>
+          <DiscoverProductsMarque />
+        </div>
         <div className="relative px-4 flex justify-center sm:px-5 py-3 sm:py-8 mt-4 sm:mt-2">
           <h1
             className="
